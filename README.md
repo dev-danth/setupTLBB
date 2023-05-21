@@ -63,6 +63,8 @@ Sau đó các thông báo kế tiếp bấm theo như sau y,n,y,y
  exit;
 systemctl restart mariadb
 
+chỉnh etc/mysql/mariadb.conf.d/50-server.cnf #bind-address
+
 + Dùng navicat, kết nối đến MySQL, tạo 2 thư mục database tên là tlbb và web
 
 sudo apt install nginx
